@@ -1,0 +1,33 @@
+.btn{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 1rem;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary{
+    background:  #3dcfd3;
+    color: #161616;
+    text-transform: uppercase;
+}
+
+.btn-secondary{
+    background: transparent;
+    color:  #3dcfd3;
+    border-color:  #3dcfd3;
+}
+
+.btn-primary:hover{
+    background: transparent;
+    border-color:  #3dcfd3;
+    color:  #fff;
+}
+
+.btn-secondary:hover{
+    background:  #3dcfd3;
+    color: #161616;
+}
